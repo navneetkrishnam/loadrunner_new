@@ -29,12 +29,12 @@ Action()
 		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=userSession", "Value=118170.865613609zAHitVDpQDztHAptiDt", ENDITEM, 
-		"Name=username", "Value=jojo", ENDITEM, 
+		"Name=username", "Value={UserName}", ENDITEM, 
 		"Name=password", "Value=bean", ENDITEM, 
 		"Name=JSFormSubmit", "Value=off", ENDITEM, 
 		"Name=login.x", "Value=64", ENDITEM, 
 		"Name=login.y", "Value=10", ENDITEM, 
-		LAST);
+		LAST); 
 
 	lr_end_transaction("login",LR_AUTO);
 
