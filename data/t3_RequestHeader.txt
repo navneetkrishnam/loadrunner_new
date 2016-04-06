@@ -1,0 +1,11 @@
+GET /cgi-bin/nav.pl?username=admin&password=admin HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://127.0.0.1:1080/cgi-bin/login.pl
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:1080
+DNT: 1
+Connection: Keep-Alive
+Cookie: MSO=SID&1458817220
+
