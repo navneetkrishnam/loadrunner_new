@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="3/30/2016 - 18:36:10" eTime="3/30/2016 - 18:36:10" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="4/19/2016 - 16:34:36" eTime="4/19/2016 - 16:34:36" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Url: index.htm]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:11]]></Time>
-<TimeTick>1459343171</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:36]]></Time>
+<TimeTick>1461063876</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
 <Disp><![CDATA[Url: index.htm]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -158,8 +158,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Submit Data: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:11]]></Time>
-<TimeTick>1459343171</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:37]]></Time>
+<TimeTick>1461063877</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Submit Data: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -170,8 +170,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Url: Itinerary Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:11]]></Time>
-<TimeTick>1459343171</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:37]]></Time>
+<TimeTick>1461063877</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="11" status="Passed" >
 <Disp><![CDATA[Url: Itinerary Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -182,8 +182,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>DepartDate</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=name="departDate" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:11]]></Time>
-<TimeTick>1459343171</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:37]]></Time>
+<TimeTick>1461063877</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="12" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -191,8 +191,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>ReturnDate</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=name="returnDate" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:11]]></Time>
-<TimeTick>1459343171</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:37]]></Time>
+<TimeTick>1461063877</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="13" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -200,8 +200,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Url: Search Flights Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:13]]></Time>
-<TimeTick>1459343173</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:37]]></Time>
+<TimeTick>1461063877</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="14" status="Passed" >
 <Disp><![CDATA[Url: Search Flights Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -212,8 +212,8 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>OBF</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=name="outboundFlight" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:13]]></Time>
-<TimeTick>1459343173</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:37]]></Time>
+<TimeTick>1461063877</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="15" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -221,8 +221,8 @@
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:13]]></Time>
-<TimeTick>1459343173</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:37]]></Time>
+<TimeTick>1461063877</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="16" status="Passed" >
 <Disp><![CDATA[Submit Data: reservations.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -233,8 +233,8 @@
 <Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:13]]></Time>
-<TimeTick>1459343173</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:38]]></Time>
+<TimeTick>1461063878</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="17" status="Passed" >
 <Disp><![CDATA[Submit Data: reservations.pl_2]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -245,8 +245,8 @@
 <Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_3]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:14]]></Time>
-<TimeTick>1459343174</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:38]]></Time>
+<TimeTick>1461063878</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="18" status="Passed" >
 <Disp><![CDATA[Submit Data: reservations.pl_3]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -257,8 +257,8 @@
 <Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Url: SignOff Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[3/30/2016 - 18:36:14]]></Time>
-<TimeTick>1459343174</TimeTick>
+<Time><![CDATA[4/19/2016 - 16:34:38]]></Time>
+<TimeTick>1461063878</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="19" status="Passed" >
 <Disp><![CDATA[Url: SignOff Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -266,7 +266,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="3/30/2016 - 18:36:10" eTime="3/30/2016 - 18:36:14" passed="8" failed="0" warnings="0" ></Summary>
+<Summary sTime="4/19/2016 - 16:34:36" eTime="4/19/2016 - 16:34:38" passed="8" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -277,12 +277,12 @@
 </DIter>
 <Action rID="T16">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="3/30/2016 - 18:36:14" eTime="3/30/2016 - 18:36:14" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="4/19/2016 - 16:34:38" eTime="4/19/2016 - 16:34:38" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="22" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="3/30/2016 - 18:36:09" eTime="3/30/2016 - 18:36:14" passed="8" failed="0" warnings="0" ></Summary>
+<Summary sTime="4/19/2016 - 16:34:35" eTime="4/19/2016 - 16:34:38" passed="8" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test WebTour Application_BetaTesting12.53 Summary]]></Disp>
 </NodeArgs>

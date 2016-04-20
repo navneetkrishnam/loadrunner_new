@@ -17,7 +17,7 @@ Action()
 
 	lr_think_time(15);
 
-	lr_start_transaction("login");:
+	lr_start_transaction("login");
 
 	web_submit_data("login.pl", 
 		"Action=http://{Base_URL}/cgi-bin/login.pl", 
@@ -150,10 +150,10 @@ Action()
 		"Name=buyFlights.x", "Value=56", ENDITEM, 
 		"Name=buyFlights.y", "Value=11", ENDITEM, 
 		LAST);
-
+,
 	lr_end_transaction("Flight booking",LR_AUTO);
 
-	lr_think_time(74);
+	lr_think_time(4);
 
 	lr_start_transaction("Sign off");
 

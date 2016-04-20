@@ -1,8 +1,8 @@
 Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
 Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
-Virtual User Script started at : 3/30/2016 6:36:10 PM
+Virtual User Script started at : 4/19/2016 4:34:36 PM
 Starting action vuser_init.
-Web Turbo Replay of LoadRunner 12.53.0 (Mar 30 2016 21:04:45)  	[MsgId: MMSG-27143]
+Web Turbo Replay of LoadRunner 12.53.0 (Apr 19 2016 21:09:54)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
 Ending action vuser_init.
@@ -12,6 +12,7 @@ Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
 Action.c(4): Notify: Transaction "Launch" started.
 Action.c(6): web_url("index.htm") started  	[MsgId: MMSG-26355]
+Action.c(6): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
 Action.c(6): Detected non-resource "http://127.0.0.1:1080/WebTours/header.html" in "http://127.0.0.1:1080/WebTours/index.htm"  	[MsgId: MMSG-26574]
 Action.c(6): Detected non-resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" in "http://127.0.0.1:1080/WebTours/index.htm"  	[MsgId: MMSG-26574]
 Action.c(6): Found resource "http://127.0.0.1:1080/WebTours/images/hp_logo.png" in HTML "http://127.0.0.1:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
@@ -19,14 +20,19 @@ Action.c(6): Found resource "http://127.0.0.1:1080/WebTours/images/webtours.png"
 Action.c(6): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(6): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(6): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-Action.c(6): web_url("index.htm") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(16): Notify: Transaction "Launch" ended with a "Pass" status (Duration: 0.7092 Wasted Time: 0.4584).
+Action.c(6): web_url("index.htm") was successful, 10072 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(16): Notify: Transaction "Launch" ended with a "Pass" status (Duration: 0.5163 Wasted Time: 0.2135).
 Action.c(20): Notify: Transaction "login" started.
 Action.c(22): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(22): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(22): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(22): Notify: Parameter Substitution: parameter "UserName" =  "jojo"
 Action.c(22): web_submit_data("login.pl") was successful, 795 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(39): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.1239 Wasted Time: 0.0018).
+Action.c(39): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.0601 Wasted Time: 0.0018).
 Action.c(41): Notify: Transaction "Flight booking" started.
 Action.c(45): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Action.c(45): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(45): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
 Action.c(45): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
 Action.c(45): Detected non-resource "http://127.0.0.1:1080/cgi-bin/itinerary.pl" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
 Action.c(45): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
@@ -39,47 +45,57 @@ Action.c(57): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390
 Action.c(58): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(58): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(63): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action.c(63): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(63): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
 Action.c(63): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
 Action.c(63): Detected non-resource "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
 Action.c(63): Found resource "http://127.0.0.1:1080/WebTours/images/in_flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
 Action.c(63): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
 Action.c(63): Resource "http://127.0.0.1:1080/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(63): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(63): Notify: Saving Parameter "DepartDate = 03/31/2016".
-Action.c(63): Notify: Saving Parameter "ReturnDate = 04/01/2016".
+Action.c(63): Notify: Saving Parameter "DepartDate = 04/20/2016".
+Action.c(63): Notify: Saving Parameter "ReturnDate = 04/21/2016".
 Action.c(63): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
 Action.c(63): web_url("Search Flights Button") was successful, 8561 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(75): web_reg_save_param started  	[MsgId: MMSG-26355]
 Action.c(75): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 Action.c(79): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(79): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(79): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
 Action.c(79): Notify: Parameter Substitution: parameter "FromFlight" =  "Frankfurt"
-Action.c(79): Notify: Parameter Substitution: parameter "DepartDate" =  "03/31/2016"
+Action.c(79): Notify: Parameter Substitution: parameter "DepartDate" =  "04/20/2016"
 Action.c(79): Notify: Parameter Substitution: parameter "ToFlight" =  "London"
-Action.c(79): Notify: Parameter Substitution: parameter "ReturnDate" =  "04/01/2016"
-Action.c(79): Notify: Saving Parameter "OBF = 120;385;03/31/2016".
+Action.c(79): Notify: Parameter Substitution: parameter "ReturnDate" =  "04/21/2016"
+Action.c(79): Notify: Saving Parameter "OBF = 120;385;04/20/2016".
 Action.c(79): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(79): web_submit_data("reservations.pl") was successful, 2447 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(105): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
-Action.c(105): Notify: Parameter Substitution: parameter "OBF" =  "120;385;03/31/2016"
+Action.c(105): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(105): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(105): Notify: Parameter Substitution: parameter "OBF" =  "120;385;04/20/2016"
 Action.c(105): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(105): web_submit_data("reservations.pl_2") was successful, 2639 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(125): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
-Action.c(125): Notify: Parameter Substitution: parameter "OBF" =  "120;385;03/31/2016"
+Action.c(125): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(125): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(125): Notify: Parameter Substitution: parameter "OBF" =  "120;385;04/20/2016"
 Action.c(125): Found resource "http://127.0.0.1:1080/WebTours/images/bookanother.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
 Action.c(125): web_submit_data("reservations.pl_3") was successful, 3276 body bytes, 585 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(154): Notify: Transaction "Flight booking" ended with a "Pass" status (Duration: 2.5126 Wasted Time: 0.0405).
+Action.c(154): Notify: Transaction "Flight booking" ended with a "Pass" status (Duration: 1.4041 Wasted Time: 0.0221).
 Action.c(158): Notify: Transaction "Sign off" started.
 Action.c(160): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(160): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
+Action.c(160): Notify: Parameter Substitution: parameter "Base_URL" =  "127.0.0.1:1080"
 Action.c(160): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
 Action.c(160): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
 Action.c(160): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
 Action.c(160): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(160): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(170): Notify: Transaction "Sign off" ended with a "Pass" status (Duration: 0.2063 Wasted Time: 0.0019).
+Action.c(170): Notify: Transaction "Sign off" ended with a "Pass" status (Duration: 0.2343 Wasted Time: 0.0023).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.
 Vuser Terminated.
-Vuser 0 (thread 1520), ended OK."
+Vuser 0 (thread 572), ended OK."

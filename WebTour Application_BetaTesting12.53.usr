@@ -13,13 +13,14 @@ ActiveTypes=QTWeb
 GenerateTypes=QTWeb
 AdditionalTypes=QTWeb
 DevelopTool=Vugen
-LastModifyVer=12.53.0.1038
+LastModifyVer=12.53.0.1155
 ParamLeftBrace={
 ParamRightBrace=}
 ScriptLanguage=C
 LastCodeGenerationVer=12.53.0.1038
 DisableRegenerate=0
 Description=
+ScriptLocale=en-US
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
@@ -49,9 +50,14 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order=
+Order="Launch__*delimiter*__login__*delimiter*__Flight booking__*delimiter*__Sign off"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
+[Transactions]
+Launch=
+login=
+"Flight booking"=
+"Sign off"=

@@ -1,10 +1,12 @@
 [t2]
 FileName2=t1f0.html
+RawStepEndTime=1461063877010
 FileName5=t1_1_mer_login.gif
 FileName4=t1_2_webtours.png
 FileName6=t1_0_hp_logo.png
 UseFrameIndex=1
 RequestBodyFile=t2_RequestBody.txt
+RawStepName=login.pl
 ContentType=text/html
 URL1=http://127.0.0.1:1080/WebTours/index.htm
 URL2=http://127.0.0.1:1080/WebTours/header.html
@@ -16,6 +18,7 @@ URL6=http://127.0.0.1:1080/WebTours/images/hp_logo.png
 SnapshotXmlFile=snapshot_2.xml
 RequestHeaderFile=t2_RequestHeader.txt
 SaveSnapshotResources=1
+RawStepStartTime=1461063876954
 Total=6
 StepName=Submit Data: login.pl
 FrameIndex2=0.0
